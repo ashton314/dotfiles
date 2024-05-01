@@ -77,6 +77,9 @@
   ;; Recommended: Enable Corfu globally.
   ;; This is recommended since Dabbrev can be used globally (M-/).
   ;; See also `corfu-excluded-modes'.
+  :custom-face
+  (corfu-default ((t (:background "#262626" :foreground "white"))))
+  (corfu-current ((t (:background "#444444" :foreground "white"))))
   :init
   (global-corfu-mode))
 
